@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button[type=submit], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button[type=reset], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+    </style>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=page-width, initial-scale=1.0">
+    <title>Member Registration</title>
+
+    <link rel="stylesheet" href="shay.css" />
+</head>
+
+<body style="background-color:beige">
+    <h1>Member Registration</h1>
+    <h3>Please complete all the fields below:</h3>
+
+    <form id="form">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name" required> <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required> <br>
+        <label for="addy">Address:</label>
+        <input type="text" id="addy" name="addy" placeholder="Address" required> <br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="City" required> <br>
+        <label for="pcode">Postal Code:</label>
+        <input type="text" id="pcode" name="pcode" placeholder="Postal Code" required> <br>
+
+
+        <label for="province">Province:</label>
+        <select name="province" id="province" placeholder="Province" required> <br>
+            <option value="QC">QC</option>
+            <option value="ON">ON</option>
+            <option value="MN">MN</option>
+            <option value="SK">SK</option>
+            <option value="AB">AB</option>
+            <option value="BC">BC</option>
+        </select>
+        <br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Age" required> <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required> <br>
+        <label for="confirm">Confirm:</label>
+        <input type="password" id="confirm" name="confirm" placeholder="Password" required> <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Email" required> <br>
+        <!---->
+        <br>
+
+        <button type="submit">Register Now</button><button type="reset">Clear Form</button>
+
+        <b>
+            <p>&copy; S Vafadar - 301171884</p>
+        </b>
+        
+    </form>
+    
+    <script src="/forms.js"></script>
+</body>
+
+
+</html>
